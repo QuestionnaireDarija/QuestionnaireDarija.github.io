@@ -1,0 +1,487 @@
+html {
+  height: 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: #141e30;
+}
+
+button{
+    padding:0px;
+    background-color:#6a67cf;
+    color: #141e30;
+    border: 0px;
+    cursor:pointer;
+    border-radius: 12px;
+    outline: 0;
+}
+form .containe {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 100px;
+  padding: 1px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+form .containe {
+  position: relative;
+  color: #fff;
+}
+
+.containe label {
+  position: relative;
+  top:0;
+  right: -120px;
+  padding: 6px 0;
+  font-size: 24px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+  text-align: center;  
+}
+
+form .containe input {
+  position: relative;
+  width: 100%;
+  padding: 8px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+form .container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+form.container h3 {
+  position: relative;
+  top:0;
+  right: -120px;
+  padding: 6px 0;
+  font-size: 24px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+  text-align: center;
+}
+
+form .container {
+  position: relative;
+}
+
+form .container input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.container .app label {
+  position: relative;
+  top:0;
+  right: -100px;
+  padding: 10px 0;
+  font-size: 28px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+  text-align: center;  
+}
+
+.container label {
+  position: relative;
+  top:0;
+  right: -80px;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+  text-align: center;  
+}
+
+form .container input:focus ~ label,
+form .container input:valid ~ label {
+  color: #03e9ff;
+  font-size: 20px;
+}
+
+form .container button {
+  position: relative;
+  display: inline-block;
+  padding: 4px 34px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 2px
+}
+
+form .container button:hover {
+  background: #141e30;
+  color: #141e30;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #141e30,
+              0 0 25px #141e30,
+              0 0 50px #141e30,
+              0 0 100px #141e30;
+}
+
+form .container button a span {
+  position: absolute;
+  display: block;
+  text-align: center;
+}
+
+form .container button a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+form .container button a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+form .container button a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+form .container button a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+
+
+
+
+form .containr {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  width: 400px;
+  height: 100px;
+  transform: translate(-22%, -22%);
+}
+
+form .containr {
+  position: relative;
+  /*color: #fff;*/
+}
+
+
+form .containr button {
+  position: relative;
+  display: inline-block;
+  padding: 4px 34px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: -200px;
+  letter-spacing: 2px
+}
+
+form .containr button:hover {
+  background: #141e30;
+  color: #141e30;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #141e30,
+              0 0 25px #141e30,
+              0 0 50px #141e30,
+              0 0 100px #141e30;
+}
+
+
+form .containr button a span {
+  position: absolute;
+  display: block;
+  text-align: center;
+}
+
+form .containr button a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+
+form .containr button a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+form .containr button a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+form .container button a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+.title-word-5 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.contai {
+  display: grid;
+  place-items: center;  
+  text-align: center;
+  height: 100vh
+}
+
+.tit {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 8.5vw;
+  text-transform: uppercase;
+}
+
+
+
+
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300';
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+/*.btn-wrapper{
+    position: absolute;
+    top: calc(50% - 22px);
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    box-shadow: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    background-color: rgb(0, 240, 168);
+    height: 100px;
+    line-height: 42px;
+    padding: 30px 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: rgb(40, 45, 50);
+   transition: all .5s;
+    transition-timing-function: cubic-bezier(.2, 3, .4, 1);
+    user-select: none;
+}
+*/
+
+/*ul {
+    list-style: none;
+    padding: 0;
+}
+*/
+p {
+    text-align: center;
+    color: #444;
+}
+
+#recording-instructions1 {
+    margin: 15px auto 60px;
+}
+
+#recording-instructions2 {
+    margin: 15px auto 60px;
+}
+
+#recording-instructions3 {
+    margin: 15px auto 60px;
+}
+
+#recording-instructions4 {
+    margin: 15px auto 60px;
+}
+
+#note-textarea1 {
+    padding-top: 20px;
+}
+
+#note-textarea2 {
+    padding-top: 20px;
+}
+
+#note-textarea3 {
+    padding-top: 20px;
+}
+
+#note-textarea4 {
+    padding-top: 20px;
+}
+
+#idM {
+    margin: 20px 0;
+}
+
+.note .header {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+/*
+.page-description {
+    font-size: 1.1rem;
+    margin: 0 auto;
+}*/
+
+/*.app {
+    margin: 40px auto;
+}*/
+
+#notes {
+    padding-top: 20px;
+}
+
+.note .content {
+    margin-bottom: 40px;
+}
